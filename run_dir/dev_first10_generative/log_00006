@@ -1,0 +1,107 @@
+running on cycle2.cs.rochester.edu
+
+[6][25 words] what is more they are considered traitors of china , which is a fact of cultural tyranny in the cloak of nationalism and patriotism .
+Decuction Tree:
+[[GOAL],0,25,(),258.84 (258.84+0.00)]
+Deduction: 35.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [GOAL] ||| [A0-1,1] ||| (. :A0-1$_0 ) ||| 1.0]
+  [[A0-1],0,25,(),223.84 (223.84+0.00)]
+  Deduction: -3.04 (FE:-0.50,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-1] ||| [A1-1,1] [A1-0,2] . ||| (. :A1-0$1  :A1-1$0 ) ||| 3.19219252595 1.56637201244 0.308208580291 100.0 -0.0]
+    [[A1-1],0,1,(),-9.00 (-9.00+0.00)]
+    Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| what ||| (. :a/amr-unknown ) ||| 10.0 10.0 10.0]
+    [[A1-0],1,24,(),235.88 (235.88+0.00)]
+    Deduction: -1.65 (FE:-0.47,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-0] ||| [A1-1,1] are [A2-00,2] ||| (. :A2-00$1 (. :A1-1$0 )) ||| 2.91868548019 3.78707950276 0.301029995664 100.0 -0.0]
+      [[A1-1],1,4,(),145.00 (145.00+0.00)]
+      Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A0-0,1] [A1-1,2] ||| (. :A1-1$1 ) ||| 1.0]
+        [[A0-0],1,2,(),40.00 (40.00+0.00)]
+        Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| is ||| . ||| 0.0001 0.0001 0.0001]
+        [[A1-1],2,4,(),68.00 (68.00+0.00)]
+        Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A0-0,2] ||| (. :A1-1$0 ) ||| 1.0]
+          [[A1-1],2,3,(),-9.00 (-9.00+0.00)]
+          Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| more ||| (. :m/more ) ||| 10.0 10.0 10.0]
+          [[A0-0],3,4,(),40.00 (40.00+0.00)]
+          Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| they ||| . ||| 0.0001 0.0001 0.0001]
+      [[A2-00],5,24,(),92.53 (92.53+0.00)]
+      Deduction: 34.84 (FE:-0.32,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-00] ||| [A2-10,1] [A2-00,2] ||| (. :A2-00$1 (. :A2-10$0 .*0 )) ||| 2.0685449312 3.33351227891 1.48268920896 -0.0 -0.0]
+        [[A2-10],5,6,(),-8.00 (-8.00+0.00)]
+        Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| considered ||| (. :ARG1 .*0  :c/consider-01 ) ||| 10.0 10.0 10.0]
+        [[A2-00],6,24,(),65.69 (65.69+0.00)]
+        Deduction: 34.84 (FE:-0.32,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-00] ||| [A2-10,1] [A2-00,2] ||| (. :A2-00$1 (. :A2-10$0 .*0 )) ||| 2.0685449312 3.33351227891 1.48268920896 -0.0 -0.0]
+          [[A2-10],6,20,(),54.85 (54.85+0.00)]
+          Deduction: 33.94 (FE:-0.41,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-0,1] [A2-10,2] ||| (. :A1-0$0  :A2-10$1 .*0 ) ||| 2.54404924332 2.87062555421 0.518912558063 -0.0 -0.0]
+            [[A1-0],6,16,(),40.99 (40.99+0.00)]
+            Deduction: -4.82 (FE:-0.58,Count:1.00,EdgeCount:1.00,RuleType:1.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-0] ||| traitors of [A1-1,1] ||| (. :ARG0-of (. :ARG1 (. :A1-1$0 ) :b/betray-01 )) ||| 3.82177546718 4.82487397274 -0.0 100.0 100.0]
+              [[A1-1],8,16,(),45.82 (45.82+0.00)]
+              Deduction: -4.18 (FE:-0.62,Count:1.00,EdgeCount:3.00,RuleType:1.00,NumTerminals:3.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] which is a [A2-10,2] [A1-1,3] ||| (. :A1-1$0  :mod (. :A2-10$1 (. :A1-1$2 ))) ||| 4.15331170569 4.52384397708 -0.0 100.0 100.0]
+                [[A1-1],8,10,(),68.00 (68.00+0.00)]
+                Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A0-0,2] ||| (. :A1-1$0 ) ||| 1.0]
+                  [[A1-1],8,9,(),-9.00 (-9.00+0.00)]
+                  Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| china ||| (. :c/country  :name (. :n/name  :op1 (. :"China" )) :wiki (. :"China" )) ||| 10.0 10.0 10.0]
+                  [[A0-0],9,10,(),40.00 (40.00+0.00)]
+                  Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| , ||| . ||| 0.0001 0.0001 0.0001]
+                [[A2-10],13,15,(),-9.00 (-9.00+0.00)]
+                Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| fact of ||| (. :f/fact  :poss .*0 ) ||| 10.0 10.0 10.0]
+                [[A1-1],15,16,(),-9.00 (-9.00+0.00)]
+                Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| cultural ||| (. :c/culture ) ||| 10.0 10.0 10.0]
+            [[A2-10],16,20,(),-20.09 (-20.09+0.00)]
+            Deduction: -3.09 (FE:-0.61,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-1,1] in the [A2-10,2] ||| (. :A1-1$0  :location (. :A2-10$1 .*0 )) ||| 4.06256318319 4.52384397708 0.301029995664 100.0 100.0]
+              [[A1-1],16,17,(),-9.00 (-9.00+0.00)]
+              Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| tyranny ||| (. :t/tyranny ) ||| 10.0 10.0 10.0]
+              [[A2-10],19,20,(),-8.00 (-8.00+0.00)]
+              Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| cloak ||| (. :ARG1 .*0  :c/cloak-01 ) ||| 10.0 10.0 10.0]
+          [[A2-00],20,24,(),-24.00 (-24.00+0.00)]
+          Deduction: -2.51 (FE:-0.55,Count:1.00,EdgeCount:1.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| of [A1-1,1] ||| (. :ARG2 (.*0  :mod (. :A1-1$0 ))) ||| 3.55990662504 4.82487397274 1.57978359662 100.0 100.0]
+            [[A1-1],21,24,(),-21.49 (-21.49+0.00)]
+            Deduction: -3.49 (FE:-0.65,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] and [A1-1,2] ||| (. :A1-1$0  :example (. :A1-1$1 )) ||| 4.45434170136 4.69016948976 3.54789771756 100.0 100.0]
+              [[A1-1],21,22,(),-9.00 (-9.00+0.00)]
+              Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| nationalism ||| (. :n/nationalism ) ||| 10.0 10.0 10.0]
+              [[A1-1],23,24,(),-9.00 (-9.00+0.00)]
+              Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| patriotism ||| (. :p/patriotism ) ||| 10.0 10.0 10.0]
+
+(a / amr-unknown:ARG2 (t / tyranny:ARG0-of (b / betray-01:ARG1 (c3 / country:mod (f / fact:poss (c4 / culture)):name (n / name:op1 "China"):wiki "China")):location (c / cloak-01:ARG1 (c2 / consider-01:ARG1 (m / more))):mod (n2 / nationalism:example (p / patriotism))))
+
+------------------Decoding Stats------------------
+[non-unary edges proposed]:                   2400
+[unary edges proposed]:                       2549
+[total edges proposed]:                       4949
+[cubes (non-unary -LM edges)]:               85804
+
+-------------------Agenda Stats-------------------
+[pushed]:                                        0
+[popped]:                                        0
+[dead pop]:                                      0
+[closed]:                                        0
+[final agenda size]:                             0
+[neighbors closed]:                              0
+[neighbors tried]:                               0
+
+-------------------Chart Stats--------------------
+[in chart]:                                   2657
+[dead in chart]:                                 2
+[pruned]:                                       46
+[prepruned]:                                   637
+[merged]:                                     1634
+[unary cycle broken]:                            0
+[negative cost edge pruned]:                     0
+[negative unary edge pruned]:                    0
+
+--DotChart Stats--
+grammar: baseline.hiero.dev
+DotItems: 63601
+merged: 40586
+
+--DotChart Stats--
+grammar: mert_unalign
+DotItems: 4251
+merged: 0
+
+--DotChart Stats--
+grammar: mert_glue_5
+DotItems: 2843
+merged: 202
+
+--DotChart Stats--
+grammar: local_gr
+DotItems: 28
+merged: 0
+
+[time]:                                      12.48

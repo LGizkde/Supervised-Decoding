@@ -1,0 +1,87 @@
+running on cycle2.cs.rochester.edu
+
+[10][12 words] just passing by and taking a look . won't express my opinion
+Decuction Tree:
+[[GOAL],0,12,(),206.18 (206.18+0.00)]
+Deduction: 35.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [GOAL] ||| [S,1] ||| (. :S$_0 ) ||| 1.0]
+  [[S],0,12,(),171.18 (171.18+0.00)]
+  Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [X,1] ||| (. :X$_0 ) ||| 1.0]
+    [[X],0,12,(),131.18 (131.18+0.00)]
+    Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A4-1001,1] ||| (. :A4-1001$_0 .*0  .*1  .*2 ) ||| 1.0]
+      [[A4-1001],0,12,(),91.18 (91.18+0.00)]
+      Deduction: 1.84 (FE:-0.42,Count:1.00,EdgeCount:2.00,RuleType:4.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A4-1001] ||| [A3-100,1] . [A3-101,2] ||| (. :A3-101$1 (. :A3-100$0 .*0  .*1 ) .*2 ) ||| 2.60422605308 4.57649108111 -0.0 100.0 -0.0]
+        [[A3-100],0,7,(),44.00 (44.00+0.00)]
+        Deduction: 0.49 (FE:-0.45,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A4-1000,1] a [A1-1,2] ||| (. :A4-1000$0 .*0  (. :A1-1$1 ) .*1 ) ||| 2.8228216453 3.54232738277 -0.0 100.0 -0.0]
+          [[A4-1000],0,5,(),52.51 (52.51+0.00)]
+          Deduction: 40.02 (FE:0.00,Count:1.00,EdgeCount:2.00,RuleType:4.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A4-1000] ||| [A3-100,1] [A3-100,2] ||| (. :A3-100$1 (. :A3-100$0 .*0  .*1 ) .*2 ) ||| 0.995545658574 2.28423500975 0.0501666094657 -0.0 -0.0]
+            [[A3-100],0,4,(),19.49 (19.49+0.00)]
+            Deduction: 1.42 (FE:-0.26,Count:1.00,EdgeCount:1.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A2-10,1] and ||| (. :a/and  :op1 (. :A2-10$0 .*0 ) :op2 .*1 ) ||| 1.81291335664 2.53241909411 -0.0 100.0 100.0]
+              [[A2-10],0,3,(),18.07 (18.07+0.00)]
+              Deduction: 36.07 (FE:-0.19,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-1,1] [A2-00,2] ||| (. :A2-00$1 .*0  :A1-1$0 ) ||| 1.55945374652 1.88603005742 0.585558115871 -0.0 -0.0]
+                [[A1-1],0,1,(),-9.00 (-9.00+0.00)]
+                Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| just ||| (. :j/just ) ||| 10.0 10.0 10.0]
+                [[A2-00],1,3,(),-9.00 (-9.00+0.00)]
+                Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| passing by ||| (. :ARG2-of (. :ARG0 .*0  :p/pass-01 )) ||| 10.0 10.0 10.0]
+            [[A3-100],4,5,(),-7.00 (-7.00+0.00)]
+            Deduction: -7.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| taking ||| (. :ARG0 .*0  :ARG1 .*1  :t/take-01 ) ||| 10.0 10.0 10.0]
+          [[A1-1],6,7,(),-9.00 (-9.00+0.00)]
+          Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| look ||| (. :l/look-01 ) ||| 10.0 10.0 10.0]
+        [[A3-101],8,12,(),45.34 (45.34+0.00)]
+        Deduction: 34.14 (FE:-0.49,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-101] ||| [A2-00,1] [A2-11,2] ||| (. :A2-11$1 .*1  :A2-00$0 .*0 ) ||| 3.06539296156 4.52384397708 1.77085201164 -0.0 -0.0]
+          [[A2-00],8,9,(),-8.00 (-8.00+0.00)]
+          Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| won't ||| (. :ARG1 .*0  :polarity (. :- )) ||| 10.0 10.0 10.0]
+          [[A2-11],9,12,(),19.21 (19.21+0.00)]
+          Deduction: 37.21 (FE:-0.08,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-11] ||| [A2-10,1] [A1-1,2] ||| (. :A2-10$0 (.*0  :A1-1$1 )) ||| 1.20066269154 2.08594343667 0.996093276667 -0.0 -0.0]
+            [[A2-10],9,11,(),-9.00 (-9.00+0.00)]
+            Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| express my ||| (. :ARG0 (_1. :i/i ) :ARG1 (.*0  :ARG0 _1.) :e/express-01 ) ||| 10.0 10.0 10.0]
+            [[A1-1],11,12,(),-9.00 (-9.00+0.00)]
+            Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| opinion ||| (. :o/opine-01 ) ||| 10.0 10.0 10.0]
+
+(e / express-01:ARG0 (i / i):ARG1 (o / opine-01:ARG0 i):ARG1 (t / take-01:ARG0 (a / and:op1 (j / just:ARG2-of (p / pass-01 )):op2 (l / look-01))):polarity -)
+
+------------------Decoding Stats------------------
+[non-unary edges proposed]:                    277
+[unary edges proposed]:                        288
+[total edges proposed]:                        565
+[cubes (non-unary -LM edges)]:                2734
+
+-------------------Agenda Stats-------------------
+[pushed]:                                        0
+[popped]:                                        0
+[dead pop]:                                      0
+[closed]:                                        0
+[final agenda size]:                             0
+[neighbors closed]:                              0
+[neighbors tried]:                               0
+
+-------------------Chart Stats--------------------
+[in chart]:                                    346
+[dead in chart]:                                 0
+[pruned]:                                        1
+[prepruned]:                                     4
+[merged]:                                      226
+[unary cycle broken]:                            0
+[negative cost edge pruned]:                     0
+[negative unary edge pruned]:                    0
+
+--DotChart Stats--
+grammar: baseline.hiero.dev
+DotItems: 1635
+merged: 601
+
+--DotChart Stats--
+grammar: mert_unalign
+DotItems: 390
+merged: 0
+
+--DotChart Stats--
+grammar: mert_glue_5
+DotItems: 372
+merged: 33
+
+--DotChart Stats--
+grammar: local_gr
+DotItems: 12
+merged: 0
+
+[time]:                                       0.32

@@ -1,0 +1,171 @@
+running on cycle2.cs.rochester.edu
+
+[1][33 words] there are many who have a sense of urgency , quietly watching how things develop , you are dragons coiling , you are tigers crouching , i admire noble @-@ minded patriots .
+Decuction Tree:
+[[GOAL],0,33,(),1303.91 (1303.91+0.00)]
+Deduction: 35.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [GOAL] ||| [S,1] ||| (. :S$_0 ) ||| 1.0]
+  [[S],0,33,(),1268.91 (1268.91+0.00)]
+  Deduction: 41.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [S,1] [X,2] ||| (. :X$_0  :S$_1 ) ||| 1.0]
+    [[S],0,29,(),965.91 (965.91+0.00)]
+    Deduction: 41.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [S,1] [X,2] ||| (. :X$_0  :S$_1 ) ||| 1.0]
+      [[S],0,24,(),713.58 (713.58+0.00)]
+      Deduction: 41.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [S,1] [X,2] ||| (. :X$_0  :S$_1 ) ||| 1.0]
+        [[S],0,22,(),564.58 (564.58+0.00)]
+        Deduction: 41.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [S,1] [X,2] ||| (. :X$_0  :S$_1 ) ||| 1.0]
+          [[S],0,9,(),314.30 (314.30+0.00)]
+          Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [X,1] ||| (. :X$_0 ) ||| 1.0]
+            [[X],0,9,(),274.30 (274.30+0.00)]
+            Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A0-1,1] ||| (. :A0-1$_0 ) ||| 1.0]
+              [[A0-1],0,9,(),234.30 (234.30+0.00)]
+              Deduction: -2.98 (FE:-0.50,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-1] ||| [A2-10,1] a [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 3.15079984079 2.69453429516 0.276206411939 100.0 -0.0]
+                [[A2-10],0,5,(),219.25 (219.25+0.00)]
+                Deduction: -2.75 (FE:-0.58,Count:1.00,EdgeCount:1.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-1,1] have ||| (. :ARG0 (. :A1-1$0 ) :ARG1 .*0  :h/have-03 ) ||| 3.76153318753 4.22281398142 -0.0 100.0 100.0]
+                  [[A1-1],0,4,(),222.00 (222.00+0.00)]
+                  Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A0-0,1] [A1-1,2] ||| (. :A1-1$1 ) ||| 1.0]
+                    [[A0-0],0,1,(),40.00 (40.00+0.00)]
+                    Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| there ||| . ||| 0.0001 0.0001 0.0001]
+                    [[A1-1],1,4,(),145.00 (145.00+0.00)]
+                    Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A0-0,1] [A1-1,2] ||| (. :A1-1$1 ) ||| 1.0]
+                      [[A0-0],1,2,(),40.00 (40.00+0.00)]
+                      Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| are ||| . ||| 0.0001 0.0001 0.0001]
+                      [[A1-1],2,4,(),68.00 (68.00+0.00)]
+                      Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A0-0,2] ||| (. :A1-1$0 ) ||| 1.0]
+                        [[A1-1],2,3,(),-9.00 (-9.00+0.00)]
+                        Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| many ||| (. :m/many ) ||| 10.0 10.0 10.0]
+                        [[A0-0],3,4,(),40.00 (40.00+0.00)]
+                        Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| who ||| . ||| 0.0001 0.0001 0.0001]
+                [[A1-1],6,9,(),18.04 (18.04+0.00)]
+                Deduction: 36.04 (FE:-0.10,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A2-10,1] [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 1.24778565726 1.48361344566 0.393763285653 -0.0 -0.0]
+                  [[A2-10],6,8,(),-9.00 (-9.00+0.00)]
+                  Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| sense of ||| (. :ARG1 .*0  :s/sense-01 ) ||| 10.0 10.0 10.0]
+                  [[A1-1],8,9,(),-9.00 (-9.00+0.00)]
+                  Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| urgency ||| (. :u/urgency ) ||| 10.0 10.0 10.0]
+          [[X],9,22,(),209.28 (209.28+0.00)]
+          Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A1-1,1] ||| (. :A1-1$_0 ) ||| 1.0]
+            [[A1-1],9,22,(),169.28 (169.28+0.00)]
+            Deduction: -3.18 (FE:-0.62,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A2-10,1] , [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 4.15331170569 4.38913949409 1.48429983935 100.0 -0.0]
+              [[A2-10],9,20,(),181.47 (181.47+0.00)]
+              Deduction: -1.90 (FE:-0.59,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A3-100,1] are [A1-1,2] ||| (. :A3-100$0 .*0  (. :A1-1$1 )) ||| 3.88647192414 4.34775271802 -0.0 100.0 -0.0]
+                [[A3-100],9,17,(),167.59 (167.59+0.00)]
+                Deduction: 34.25 (FE:-0.47,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A2-00,1] [A3-101,2] ||| (. :A3-101$1 .*0  (. :A2-00$0 .*1 )) ||| 2.98252248817 3.70202822564 0.276206411939 -0.0 -0.0]
+                  [[A2-00],9,11,(),70.00 (70.00+0.00)]
+                  Deduction: 38.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-00] ||| [A0-0,1] [A2-00,2] ||| (. :A2-00$1 .*0 ) ||| 1.0]
+                    [[A0-0],9,10,(),40.00 (40.00+0.00)]
+                    Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| , ||| . ||| 0.0001 0.0001 0.0001]
+                    [[A2-00],10,11,(),-8.00 (-8.00+0.00)]
+                    Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| quietly ||| (. :ARG1 .*0  :manner (. :q/quiet )) ||| 10.0 10.0 10.0]
+                  [[A3-101],11,17,(),63.34 (63.34+0.00)]
+                  Deduction: 0.14 (FE:-0.49,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-101] ||| [A3-100,1] , [A1-1,2] ||| (. :A3-100$0 .*0  (.*1  :A1-1$1 )) ||| 3.06539296156 4.52384397708 1.07918124605 100.0 -0.0]
+                    [[A3-100],11,15,(),72.20 (72.20+0.00)]
+                    Deduction: 35.01 (FE:-0.40,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A3-100,1] [A2-10,2] ||| (. :A2-10$1 (. :A3-100$0 .*0  .*1 )) ||| 2.50540123345 3.22490697092 1.11021547979 -0.0 -0.0]
+                      [[A3-100],11,12,(),-7.00 (-7.00+0.00)]
+                      Deduction: -7.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| watching ||| (. :ARG0 .*0  :ARG1 .*1  :w/watch-01 ) ||| 10.0 10.0 10.0]
+                      [[A2-10],12,15,(),44.19 (44.19+0.00)]
+                      Deduction: 33.64 (FE:-0.44,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A2-00,1] [A2-11,2] ||| (. :A2-11$1 (. :A2-00$0 .*0 )) ||| 2.73012472328 3.19140551716 0.438413551727 -0.0 -0.0]
+                        [[A2-00],12,13,(),-8.00 (-8.00+0.00)]
+                        Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| how ||| (. :manner-of .*0 ) ||| 10.0 10.0 10.0]
+                        [[A2-11],13,15,(),18.56 (18.56+0.00)]
+                        Deduction: 35.56 (FE:-0.24,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-11] ||| [A1-1,1] [A2-01,2] ||| (. :A2-01$1 .*0  :A1-1$0 ) ||| 1.75567072195 2.64095146709 0.31061745967 -0.0 -0.0]
+                          [[A1-1],13,14,(),-9.00 (-9.00+0.00)]
+                          Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| things ||| (. :t/thing ) ||| 10.0 10.0 10.0]
+                          [[A2-01],14,15,(),-8.00 (-8.00+0.00)]
+                          Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-01] ||| develop ||| (. :ARG1-of (.*0  :d/develop-02 )) ||| 10.0 10.0 10.0]
+                    [[A1-1],16,17,(),-9.00 (-9.00+0.00)]
+                    Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| you ||| (. :y/you ) ||| 10.0 10.0 10.0]
+                [[A1-1],18,20,(),15.77 (15.77+0.00)]
+                Deduction: 33.77 (FE:-0.32,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A1-0,2] ||| (. :A1-0$1  :A1-1$0 ) ||| 2.10409368302 1.17036650354 0.640534673469 -0.0 -0.0]
+                  [[A1-1],18,19,(),-9.00 (-9.00+0.00)]
+                  Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| dragons ||| (. :d/dragon ) ||| 10.0 10.0 10.0]
+                  [[A1-0],19,20,(),-9.00 (-9.00+0.00)]
+                  Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-0] ||| coiling ||| (. :ARG1-of (. :c/coil-01 )) ||| 10.0 10.0 10.0]
+              [[A1-1],21,22,(),-9.00 (-9.00+0.00)]
+              Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| you ||| (. :y/you ) ||| 10.0 10.0 10.0]
+        [[X],22,24,(),108.00 (108.00+0.00)]
+        Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A1-1,1] ||| (. :A1-1$_0 ) ||| 1.0]
+          [[A1-1],22,24,(),68.00 (68.00+0.00)]
+          Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A0-0,1] [A1-1,2] ||| (. :A1-1$1 ) ||| 1.0]
+            [[A0-0],22,23,(),40.00 (40.00+0.00)]
+            Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| are ||| . ||| 0.0001 0.0001 0.0001]
+            [[A1-1],23,24,(),-9.00 (-9.00+0.00)]
+            Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| tigers ||| (. :t/tiger ) ||| 10.0 10.0 10.0]
+      [[X],24,29,(),211.33 (211.33+0.00)]
+      Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A0-1,1] ||| (. :A0-1$_0 ) ||| 1.0]
+        [[A0-1],24,29,(),171.33 (171.33+0.00)]
+        Deduction: 33.33 (FE:-0.27,Count:1.00,EdgeCount:2.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A0-1] ||| [A2-10,1] [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 1.85130795013 1.3950424045 0.305192244499 -0.0 -0.0]
+          [[A2-10],24,28,(),147.00 (147.00+0.00)]
+          Deduction: 38.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A0-0,1] [A2-10,2] ||| (. :A2-10$1 .*0 ) ||| 1.0]
+            [[A0-0],24,25,(),40.00 (40.00+0.00)]
+            Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| crouching ||| . ||| 0.0001 0.0001 0.0001]
+            [[A2-10],25,28,(),69.00 (69.00+0.00)]
+            Deduction: 38.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A0-0,1] [A2-10,2] ||| (. :A2-10$1 .*0 ) ||| 1.0]
+              [[A0-0],25,26,(),40.00 (40.00+0.00)]
+              Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| , ||| . ||| 0.0001 0.0001 0.0001]
+              [[A2-10],26,28,(),-9.00 (-9.00+0.00)]
+              Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| i admire ||| (. :ARG0 (. :i/i ) :ARG1 .*0  :a/admire-01 ) ||| 10.0 10.0 10.0]
+          [[A1-1],28,29,(),-9.00 (-9.00+0.00)]
+          Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| noble ||| (. :n/noble ) ||| 10.0 10.0 10.0]
+    [[X],29,33,(),262.00 (262.00+0.00)]
+    Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A1-1,1] ||| (. :A1-1$_0 ) ||| 1.0]
+      [[A1-1],29,33,(),222.00 (222.00+0.00)]
+      Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A0-0,1] [A1-1,2] ||| (. :A1-1$1 ) ||| 1.0]
+        [[A0-0],29,30,(),40.00 (40.00+0.00)]
+        Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| @-@ ||| . ||| 0.0001 0.0001 0.0001]
+        [[A1-1],30,33,(),145.00 (145.00+0.00)]
+        Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A0-0,2] ||| (. :A1-1$0 ) ||| 1.0]
+          [[A1-1],30,32,(),68.00 (68.00+0.00)]
+          Deduction: 37.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A1-1,1] [A0-0,2] ||| (. :A1-1$0 ) ||| 1.0]
+            [[A1-1],30,31,(),-9.00 (-9.00+0.00)]
+            Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| minded ||| (. :m/mind ) ||| 10.0 10.0 10.0]
+            [[A0-0],31,32,(),40.00 (40.00+0.00)]
+            Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| patriots ||| . ||| 0.0001 0.0001 0.0001]
+          [[A0-0],32,33,(),40.00 (40.00+0.00)]
+          Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| . ||| . ||| 0.0001 0.0001 0.0001]
+
+(m / multi-sentence:ARG0 (m2 / multi-sentence:ARG0 (m3 / multi-sentence:ARG0 (m4 / multi-sentence:ARG0 (h / have-03:ARG0 (m5 / many):ARG1 (s / sense-01:ARG1 (u / urgency))):ARG1 (t / thing:ARG1-of (d / develop-02:manner-of (w / watch-01:ARG0 (y / you):ARG1 (y2 / you:ARG1 (d2 / dragon:ARG1-of (c / coil-01)):manner (q / quiet)))))):ARG1 (t2 / tiger)):ARG1 (a / admire-01:ARG0 (i / i):ARG1 (n / noble))):ARG1 (m6 / mind))
+
+------------------Decoding Stats------------------
+[non-unary edges proposed]:                   1674
+[unary edges proposed]:                       1770
+[total edges proposed]:                       3444
+[cubes (non-unary -LM edges)]:               27887
+
+-------------------Agenda Stats-------------------
+[pushed]:                                        0
+[popped]:                                        0
+[dead pop]:                                      0
+[closed]:                                        0
+[final agenda size]:                             0
+[neighbors closed]:                              0
+[neighbors tried]:                               0
+
+-------------------Chart Stats--------------------
+[in chart]:                                   1935
+[dead in chart]:                                11
+[pruned]:                                       31
+[prepruned]:                                   279
+[merged]:                                     1232
+[unary cycle broken]:                            0
+[negative cost edge pruned]:                     0
+[negative unary edge pruned]:                    0
+
+--DotChart Stats--
+grammar: baseline.hiero.dev
+DotItems: 18878
+merged: 8458
+
+--DotChart Stats--
+grammar: mert_unalign
+DotItems: 3021
+merged: 0
+
+--DotChart Stats--
+grammar: mert_glue_5
+DotItems: 2047
+merged: 136
+
+--DotChart Stats--
+grammar: local_gr
+DotItems: 33
+merged: 0
+
+[time]:                                       5.06

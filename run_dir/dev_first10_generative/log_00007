@@ -1,0 +1,125 @@
+running on cycle2.cs.rochester.edu
+
+[7][29 words] in fact , the us no longer needs to use force to deal with china , they have achieved the result of " defeating enemy soldiers without fighting ".
+Decuction Tree:
+[[GOAL],0,29,(),639.19 (639.19+0.00)]
+Deduction: 35.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [GOAL] ||| [S,1] ||| (. :S$_0 ) ||| 1.0]
+  [[S],0,29,(),604.19 (604.19+0.00)]
+  Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [S] ||| [X,1] ||| (. :X$_0 ) ||| 1.0]
+    [[X],0,29,(),564.19 (564.19+0.00)]
+    Deduction: 40.00 (FE:-0.00,Count:1.00,EdgeCount:1.00,RuleType:0.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:1.00) [rule: [X] ||| [A4-1000,1] ||| (. :A4-1000$_0 .*0  .*1  .*2 ) ||| 1.0]
+      [[A4-1000],0,29,(),524.19 (524.19+0.00)]
+      Deduction: 34.83 (FE:-0.52,Count:1.00,EdgeCount:2.00,RuleType:4.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A4-1000] ||| [A1-0,1] [A4-1000,2] ||| (. :A4-1000$1 .*0  .*1  .*2  :A1-0$0 ) ||| 3.28780172993 4.65627073508 1.20411998266 -0.0 -0.0]
+        [[A1-0],0,26,(),389.85 (389.85+0.00)]
+        Deduction: -3.47 (FE:-0.55,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-0] ||| [A2-00,1] , the [A1-1,2] ||| (. :A2-00$0 (. :A1-1$1 )) ||| 3.52074547152 4.38913949409 0.176091259056 100.0 -0.0]
+          [[A2-00],0,2,(),-9.00 (-9.00+0.00)]
+          Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| in fact ||| (. :ARG1 .*0  :prep-in (. :f/fact )) ||| 10.0 10.0 10.0]
+          [[A1-1],4,26,(),402.32 (402.32+0.00)]
+          Deduction: 36.04 (FE:-0.10,Count:1.00,EdgeCount:2.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A2-10,1] [A1-1,2] ||| (. :A2-10$0 (. :A1-1$1 )) ||| 1.24778565726 1.48361344566 0.393763285653 -0.0 -0.0]
+            [[A2-10],4,25,(),375.28 (375.28+0.00)]
+            Deduction: 32.60 (FE:-0.64,Count:1.00,EdgeCount:3.00,RuleType:2.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-1,1] [A4-1000,2] [A1-1,3] ||| (. :A4-1000$1 (. :A1-1$0 ) (. :A1-1$2 ) .*0 ) ||| 4.36359317886 4.65627073508 -0.0 -0.0 -0.0]
+              [[A1-1],4,5,(),-9.00 (-9.00+0.00)]
+              Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| us ||| (. :c/country  :name (. :n/name  :op1 (. :"US" )) :wiki (. :"United_States" )) ||| 10.0 10.0 10.0]
+              [[A4-1000],5,12,(),48.02 (48.02+0.00)]
+              Deduction: 40.02 (FE:0.00,Count:1.00,EdgeCount:2.00,RuleType:4.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A4-1000] ||| [A3-100,1] [A3-100,2] ||| (. :A3-100$1 (. :A3-100$0 .*0  .*1 ) .*2 ) ||| 0.995545658574 2.28423500975 0.0501666094657 -0.0 -0.0]
+                [[A3-100],5,10,(),16.01 (16.01+0.00)]
+                Deduction: 34.01 (FE:-0.50,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A1-0,1] [A4-1001,2] ||| (. :A4-1001$1 .*0  .*1  (. :A1-0$0 )) ||| 3.15861374723 3.8781194847 0.221848749616 -0.0 -0.0]
+                  [[A1-0],5,7,(),-10.00 (-10.00+0.00)]
+                  Deduction: -10.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-0] ||| no longer ||| (. :polarity (. :- ) :time (. :a/any-longer )) ||| 10.0 10.0 10.0]
+                  [[A4-1001],7,10,(),-8.00 (-8.00+0.00)]
+                  Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:4.00,NumTerminals:3.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A4-1001] ||| needs to use ||| (. :ARG0 .*1  :ARG1 (.*2  :ARG1 .*0  :u/use-01 ) :n/need-01 ) ||| 10.0 10.0 10.0]
+                [[A3-100],10,12,(),-8.00 (-8.00+0.00)]
+                Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:3.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| force to ||| (. :ARG1 .*0  :ARG2 .*1  :f/force-01 ) ||| 10.0 10.0 10.0]
+              [[A1-1],12,25,(),303.65 (303.65+0.00)]
+              Deduction: 32.00 (FE:-0.60,Count:1.00,EdgeCount:3.00,RuleType:1.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A1-1] ||| [A2-10,1] [A2-10,2] [A1-1,3] ||| (. :A2-10$0 (. :A2-10$1 (. :A1-1$2 ))) ||| 3.97722044664 4.34775271802 0.698970004336 -0.0 -0.0]
+                [[A2-10],12,14,(),-9.00 (-9.00+0.00)]
+                Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| deal with ||| (. :ARG2 .*0  :d/deal-01 ) ||| 10.0 10.0 10.0]
+                [[A2-10],14,24,(),289.65 (289.65+0.00)]
+                Deduction: 0.60 (FE:-0.34,Count:1.00,EdgeCount:2.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-10] ||| [A1-1,1] , [A3-100,2] ||| (. :A3-100$1 (. :A1-1$0 ) .*0 ) ||| 2.1875019198 2.64878271369 0.0863598306747 100.0 -0.0]
+                  [[A1-1],14,15,(),-9.00 (-9.00+0.00)]
+                  Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| china ||| (. :c/country  :name (. :n/name  :op1 (. :"China" )) :wiki (. :"China" )) ||| 10.0 10.0 10.0]
+                  [[A3-100],16,24,(),298.05 (298.05+0.00)]
+                  Deduction: -0.95 (FE:-0.60,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A3-100,1] " [A1-1,2] ||| (. :A3-100$0 .*0  (.*1  :mod (. :A1-1$1 ))) ||| 3.93676499761 4.65627073508 0.602059991328 100.0 100.0]
+                    [[A3-100],16,22,(),308.00 (308.00+0.00)]
+                    Deduction: 39.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A0-0,1] [A3-100,2] ||| (. :A3-100$1 .*0  .*1 ) ||| 1.0]
+                      [[A0-0],16,17,(),40.00 (40.00+0.00)]
+                      Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| they ||| . ||| 0.0001 0.0001 0.0001]
+                      [[A3-100],17,22,(),229.00 (229.00+0.00)]
+                      Deduction: 39.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A0-0,1] [A3-100,2] ||| (. :A3-100$1 .*0  .*1 ) ||| 1.0]
+                        [[A0-0],17,18,(),40.00 (40.00+0.00)]
+                        Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| have ||| . ||| 0.0001 0.0001 0.0001]
+                        [[A3-100],18,22,(),150.00 (150.00+0.00)]
+                        Deduction: 39.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A0-0,1] [A3-100,2] ||| (. :A3-100$1 .*0  .*1 ) ||| 1.0]
+                          [[A0-0],18,19,(),40.00 (40.00+0.00)]
+                          Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| achieved ||| . ||| 0.0001 0.0001 0.0001]
+                          [[A3-100],19,22,(),71.00 (71.00+0.00)]
+                          Deduction: 39.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A0-0,1] [A3-100,2] ||| (. :A3-100$1 .*0  .*1 ) ||| 1.0]
+                            [[A0-0],19,20,(),40.00 (40.00+0.00)]
+                            Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| the ||| . ||| 0.0001 0.0001 0.0001]
+                            [[A3-100],20,22,(),-8.00 (-8.00+0.00)]
+                            Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:3.00,NumTerminals:2.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| result of ||| (. :ARG1 .*0  :ARG2 .*1  :r/result-01 ) ||| 10.0 10.0 10.0]
+                    [[A1-1],23,24,(),-9.00 (-9.00+0.00)]
+                    Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| defeating ||| (. :d/defeat-01 ) ||| 10.0 10.0 10.0]
+                [[A1-1],24,25,(),-9.00 (-9.00+0.00)]
+                Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| enemy ||| (. :e/enemy ) ||| 10.0 10.0 10.0]
+            [[A1-1],25,26,(),-9.00 (-9.00+0.00)]
+            Deduction: -9.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:1.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A1-1] ||| soldiers ||| (. :s/soldier ) ||| 10.0 10.0 10.0]
+        [[A4-1000],26,29,(),99.51 (99.51+0.00)]
+        Deduction: 35.51 (FE:-0.45,Count:1.00,EdgeCount:2.00,RuleType:4.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A4-1000] ||| [A2-00,1] [A3-100,2] ||| (. :A3-100$1 .*0  .*1  :A2-00$0 .*2 ) ||| 2.81068047521 4.17914948036 1.71039946612 -0.0 -0.0]
+          [[A2-00],26,27,(),-8.00 (-8.00+0.00)]
+          Deduction: -8.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:2.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A2-00] ||| without ||| (. :prep-without .*0 ) ||| 10.0 10.0 10.0]
+          [[A3-100],27,29,(),72.00 (72.00+0.00)]
+          Deduction: 39.00 (FE:-0.00,Count:1.00,EdgeCount:2.00,RuleType:3.00,NumTerminals:-3.00,NTPunish:10.00,GlueRuleCount:0.00) [rule: [A3-100] ||| [A3-100,1] [A0-0,2] ||| (. :A3-100$0 .*0  .*1 ) ||| 1.0]
+            [[A3-100],27,28,(),-7.00 (-7.00+0.00)]
+            Deduction: -7.00 (FE:-1.00,Count:1.00,EdgeCount:0.00,RuleType:3.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A3-100] ||| fighting ||| (. :ARG0 .*0  :ARG1 .*1  :f/fight-01 ) ||| 10.0 10.0 10.0]
+            [[A0-0],28,29,(),40.00 (40.00+0.00)]
+            Deduction: 40.00 (FE:4.00,Count:1.00,EdgeCount:0.00,RuleType:0.00,NumTerminals:1.00,NTPunish:0.00,GlueRuleCount:0.00) [rule: [A0-0] ||| ". ||| . ||| 0.0001 0.0001 0.0001]
+
+(f / fight-01:ARG1 (f2 / force-01:ARG1 (n2 / need-01:ARG0 (d / deal-01:ARG2 (r / result-01:ARG1 (c / country:name (n3 / name:op1 "China"):wiki "China"):ARG2 (e / enemy:mod (d2 / defeat-01)))):ARG1 (u / use-01:ARG1 (c2 / country:name (n4 / name:op1 "US"):wiki "United_States"):polarity -:time (a / any-longer))):ARG2 (s / soldier)):prep-in (f3 / fact))
+
+------------------Decoding Stats------------------
+[non-unary edges proposed]:                   1842
+[unary edges proposed]:                       1879
+[total edges proposed]:                       3721
+[cubes (non-unary -LM edges)]:               36313
+
+-------------------Agenda Stats-------------------
+[pushed]:                                        0
+[popped]:                                        0
+[dead pop]:                                      0
+[closed]:                                        0
+[final agenda size]:                             0
+[neighbors closed]:                              0
+[neighbors tried]:                               0
+
+-------------------Chart Stats--------------------
+[in chart]:                                   2088
+[dead in chart]:                                 2
+[pruned]:                                       35
+[prepruned]:                                   360
+[merged]:                                     1267
+[unary cycle broken]:                            0
+[negative cost edge pruned]:                     0
+[negative unary edge pruned]:                    0
+
+--DotChart Stats--
+grammar: baseline.hiero.dev
+DotItems: 21906
+merged: 11815
+
+--DotChart Stats--
+grammar: mert_unalign
+DotItems: 3059
+merged: 0
+
+--DotChart Stats--
+grammar: mert_glue_5
+DotItems: 2249
+merged: 181
+
+--DotChart Stats--
+grammar: local_gr
+DotItems: 29
+merged: 0
+
+[time]:                                       5.15

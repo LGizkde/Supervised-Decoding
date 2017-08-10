@@ -1,0 +1,2 @@
+(e / express-01:ARG0 (i / i):ARG1 (o / opine-01:ARG0 i):ARG1 (t / take-01:ARG0 (a / and:op1 (j / just:ARG2-of (p / pass-01 )):op2 (l / look-01))):polarity -)
+

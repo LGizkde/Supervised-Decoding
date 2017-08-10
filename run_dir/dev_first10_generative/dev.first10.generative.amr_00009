@@ -1,0 +1,2 @@
+(s / see-01:ARG0 (e / eye:example (b / by:ARG1-of (h / hear-01:ARG0 (d / do-02:ARG0 (y / you):ARG1 (a / assume-02:polarity -))):op1 (e2 / ear))):ARG0 (t / tiger):ARG1 (c / create-01:ARG1 (p / person:quant 3):domain (e3 / exist-01)):condition (t2 / thing):polarity -)
+

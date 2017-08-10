@@ -1,0 +1,2 @@
+(m / multi-sentence:ARG0 (m2 / multi-sentence:ARG0 (m3 / multi-sentence:ARG0 (a / article):ARG1 (i / intense-02:degree (t / too))):ARG1 (c / country:name (n / name:op1 "United":op2 "States"):wiki "United_States")):ARG1 (c2 / cause-01:ARG1 (g / good:mode interrogative)))
+
